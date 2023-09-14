@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>LP Podcast | Welcome</title>
+	</head>
+	<body>
+		<!-- Showcase -->
+		<section class="showcase py-5 vh-100">
+			<div class="container d-flex flex-column justify-content-center h-100">
+				<h1 class="display-1 fw-bold py-4 text-uppercase text-light">
+					<span class="bg-warning px-3">Welcome</span> <br />
+					<span class="bg-warning px-3">to my </span> <br />
+					<span class="bg-warning px-3">new</span> <br />
+					<span class="bg-warning px-3">podcast</span> <br />
+				</h1>
+				<a href="#" class="btn btn-primary text-uppercase py-2 fs-5 w-25" data-bs-toggle="modal" data-bs-target="#modal"
+					>Subscribe</a
+				>
+			</div>
+		</section>
+
+		<!-- Modal -->
+		<div id="modal" class="modal fade">
+			<div class="modal-dialog modal-lg mt-3">
+				<div class="modal-content px-5 pt-3 pb-3">
+					<div class="row">
+						<div class="col-lg-12 contact-form">
+							<div class="card border-0">
+								<div class="card-body">
+									<div class="text-end">
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="card-title text-center pb-3">
+										<h3>Subscribe to my podcast</h3>
+										<p class="lead text-muted fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+									</div>
+									<form>
+										<div class="mb-3 d-flex w-100">
+											<input type="text" placeholder="Name" class="form-control bg-light me-2" />
+										</div>
+										<div class="mb-3 d-flex w-100">
+											<input type="text" placeholder="Last Name" class="form-control bg-light me-2" />
+										</div>
+										<div class="mb-3 d-flex w-100">
+											<input type="email" placeholder="Email Address" class="form-control bg-light me-2" />
+										</div>
+										<input type="submit" value="Subscribe" class="btn btn-primary w-100 rounded-0 mb-5" />
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
